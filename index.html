@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api e Js</title>
+
+    <style>
+      label {
+        display: block;
+      }
+
+      input {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form name="endereco" id="endereco">
+      <label for="cep">Digite o CEP:</label>
+      <input type="text" name="cep" id="cep" maxlength="8" />
+
+      <label for="logradouro">Logradouro:</label>
+      <input type="text" name="logradouro" id="logradouro" />
+
+      <label for="complemento">Complemento:</label>
+      <input type="text" name="complemento" id="complemento" />
+
+      <label for="bairro">Bairro</label>
+      <input type="text" name="bairro" id="bairro" />
+
+      <label for="localidade">Localidade</label>
+      <input type="text" name="localidade" id="localidade" />
+
+      <label for="uf">UF</label>
+      <input type="text" name="uf" id="uf" />
+
+      <label for="ibge">IBGE</label>
+      <input type="text" name="ibge" id="ibge" />
+
+      <label for="gia">GIA</label>
+      <input type="text" name="gia" id="gia" />
+
+      <label for="cep">DDD</label>
+      <input type="ddd" name="ddd" id="ddd" />
+
+      <label for="siafi">Siafi:</label>
+      <input type="text" name="siafi" id="siafi" />
+    </form>
+    <button class="busca-cep">Buscar</button>
+
+    <form id="buscaCep">
+      <label for="form-cep">CEP</label>
+      <input type="text" name="form-cep" id="form-cep" />
+      <input type="button" value="Buscar Cep" id="btnCep" />
+    </form>
+    <div class="resultadoCep"></div>
+
+    <div>
+      <h2>Preço BTC</h2>
+      <p class="btc"></p>
+    </div>
+  </body>
+
+  <script src="js/style.js"></script>
+</html>
